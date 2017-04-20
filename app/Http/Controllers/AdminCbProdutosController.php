@@ -52,7 +52,7 @@
 			$this->form[] = ['label'=>'Modelo','name'=>'modelo','type'=>'select','validation'=>'required|integer|min:0','width'=>'col-sm-5','datatable'=>'cb_produtos_modelo,nome'];
 			$this->form[] = ['label'=>'Acabamento','name'=>'acabamento','type'=>'select','validation'=>'required|integer|min:0','width'=>'col-sm-5','datatable'=>'cb_produtos_acabamento,nome'];
 			$this->form[] = ['label'=>'Tamanho','name'=>'tamanho','type'=>'select','validation'=>'required|integer|min:0','width'=>'col-sm-5','datatable'=>'cb_produtos_tamanho,nome'];
-			$this->form[] = ['label'=>'Foto','name'=>'foto','type'=>'upload','validation'=>'required|image|max:3000','width'=>'col-sm-3','help'=>'File types support : JPG, JPEG, PNG, GIF, BMP'];
+			$this->form[] = ['label'=>'Foto','name'=>'foto','type'=>'upload','validation'=>'image|max:3000','width'=>'col-sm-3','help'=>'File types support : JPG, JPEG, PNG, GIF, BMP'];
 			$this->form[] = ['label'=>'Preco de Custo','name'=>'precoCusto','type'=>'text','validation'=>'required|min:1|max:255','width'=>'col-sm-3'];
 			$this->form[] = ['label'=>'Preco de Venda no Atacado','name'=>'precoVendaAtacado','type'=>'text','validation'=>'required|min:1|max:255','width'=>'col-sm-3'];
 			$this->form[] = ['label'=>'Preco de Venda no Varejo','name'=>'precoVendaVarejo','type'=>'text','validation'=>'required|min:1|max:255','width'=>'col-sm-3'];
